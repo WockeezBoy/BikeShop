@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Подача заявки</title>
+	<link rel="stylesheet" media="screen" href="styles.css" >
+</head>
+<body background="fon.png">
+<form class="contact_form" action="#" method="post" name="contact_form">
+    <ul>
+        <li>
+             <h2>Для регистрации в экскурсии оставьте заявку</h2>
+             <span class="required_notification">* Обязательно заполните все поля</span>
+        </li>
+        <li>
+            <label for="name">Ваша фамилия:</label>
+            <input type="text"  placeholder="Иванов" required />
+        </li>
+		 <li>
+            <label for="name">Ваше имя:</label>
+            <input type="text"  placeholder="Иван" required />
+        </li>
+		 <li>
+            <label for="name">Ваше отчество:</label>
+            <input type="text"  placeholder="Иванович" required />
+        </li>
+        <li>
+            <label for="email">Ваш Email адрес:</label>
+            <input type="email" name="email" placeholder="Ivanov_Ivan@example.com" required />
+            <span class="form_hint">Вводить строго в формате "name@example.com"</span>
+        </li>
+        <li>
+            <label for="website">Страничка в социальных сетях:</label>
+            <input type="url" name="website" placeholder="http:vk.com" >
+        </li>
+		 <li>
+            <label for="name">Ваш номер телефона:</label>
+            <input type="text"  placeholder="+79655656566" required />
+        </li>
+        <li>
+            <label for="message">Опишите ваше состояние здоровья, наличие велосипеда и наличие справки от врача.</label>
+            <textarea name="message" cols="40" rows="6" required ></textarea>
+        </li>
+        <li>
+        	<button class="submit" type="submit" href="index3.html">Отправить заявку</button>
+        </li>
+    </ul>
+</form>
+</body>
+</html>
